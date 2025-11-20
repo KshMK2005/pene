@@ -1,0 +1,23 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Servidor API para la aplicación de productos",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "swagger": "node swagger.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "multer": "^2.0.2",
+    "swagger-ui-express": "^5.0.1",
+    "swagger-autogen": "^2.23.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
